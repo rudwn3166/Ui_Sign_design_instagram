@@ -3,13 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <gradient
-        android:angle="45"
-    android:type="linear"
-    android:startColor="#247dea"
-    android:centerColor="#18c6ff"
-    android:endColor="#247dea"/>
-    <corners
-        android:radius="20dp"/>
+
 
 </LinearLayout>
