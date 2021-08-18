@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/gradient_backgoundcolor"
     android:padding="20dp"
     tools:context=".MainActivity">
 
@@ -17,8 +18,8 @@
         <ImageView
             android:layout_width="15dp"
             android:layout_height="15dp"
-            android:src="@drawable/icon"
-            />
+            android:src="@drawable/letter_x"
+            android:tint="@color/white"/>
     </LinearLayout>
 
     <LinearLayout
@@ -31,64 +32,80 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:layout_marginBottom="10dp">
 
             <ImageView
-                android:layout_width="190dp"
-                android:layout_height="50dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
                 android:src="@drawable/font_logo"
+                android:tint="@color/white"
                 />
 
         </LinearLayout>
 
 
         <EditText
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:hint="사용자 이름"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text"
+            />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:hint="비밀번호"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text"
             android:inputType="textPassword"
-            android:layout_marginBottom="10dp"/>
-
+            />
         <Button
+            android:enabled="false"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:textSize="50px"
             android:text="로그인"
+            android:textColor="#34FFFFFF"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_outline"
+
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="로그인 상세 정보를 잊으셨나요? 로그인 관련 도움을 받으세요."
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="50dp" >
+            android:layout_marginTop="40dp" >
 
 
             <View
-                android:background="#000000"
-                android:layout_width="180dp"
+                android:background="@color/white"
+                android:layout_width="150dp"
                 android:layout_height="2px"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="또는" />
+                android:text="또는"
+                android:textColor="@color/white"
+                />
             <View
-                android:background="#000000"
-                android:layout_width="180dp"
+                android:background="@color/white"
+                android:layout_width="150dp"
                 android:layout_height="2px"/>
 
 
@@ -102,14 +119,18 @@
             >
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:src="@drawable/facebook_1_logo"
-                android:layout_marginRight="5dp"/>
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/facebook_social"
+                android:tint="@color/white"
+                android:layout_marginRight="5dp"
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Facebook으로 로그인"/>
+                android:text="Facebook으로 로그인"
+                android:textColor="@color/white"/>
 
 
         </LinearLayout>

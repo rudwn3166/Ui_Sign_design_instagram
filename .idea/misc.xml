@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Joo/AndroidStudioProjects/Ui_Sign_design/app/src/main/res/drawable/button_outline.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/Joo/AndroidStudioProjects/Ui_Sign_design/app/src/main/res/drawable/edit_text.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/Joo/AndroidStudioProjects/Ui_Sign_design/app/src/main/res/drawable/gradient_backgoundcolor.xml" value="0.25277777777777777" />
+        <entry key="..\:/Users/Joo/AndroidStudioProjects/Ui_Sign_design/app/src/main/res/drawable/outline.xml" value="0.25277777777777777" />
         <entry key="..\:/Users/Joo/AndroidStudioProjects/Ui_Sign_design/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Joo/AndroidStudioProjects/Ui_Sign_design/app/src/main/res/layout/layout.xml" value="0.2390625" />
       </map>
